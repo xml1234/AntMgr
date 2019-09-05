@@ -8,11 +8,11 @@ namespace DbModel
 {
     public class DbContext
     {
-        public static MysqlDbContext<AntEntity> DB
+        public static SqlServerlDbContext<AntEntity> DB
         {
             get
             {
-                var db = new MysqlDbContext<AntEntity>("ant_mysql");
+                var db = new SqlServerlDbContext<AntEntity>("ant_mysql");
                 db.IsEnableLogTrace = true;
                 db.OnLogTrace = OnCustomerTraceConnection;
                 return db;

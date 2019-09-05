@@ -13,7 +13,7 @@
 
   "GenerateAssociations": true, //是否生成外键
 
-  "ConnectionString": "Server=localhost;Port=3306;Database=antmgr;Uid=root;Pwd=123456;charset=utf8;SslMode=none", //DB链接字符串
+  "ConnectionString": "Data Source = DESKTOP-KK5311I\\SQLEXPRESS;Initial Catalog = antmgr;User Id = sa;Password = 123456;", //DB链接字符串
 
   "OutFileName": "DbModels", //生成的cs文件名称
 
